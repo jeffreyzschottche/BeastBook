@@ -17,7 +17,7 @@ public/hot
 
 # Laravel
 storage/*.key
-storage/framework/cache/*
+storage/framework/cache/data/*
 storage/framework/sessions/*
 storage/framework/views/*
 storage/logs/*
@@ -35,7 +35,10 @@ bootstrap/cache/*
 *.swp
 *.swo
 *~
+
+# macOS
 .DS_Store
+Thumbs.db
 
 # Logs
 *.log
@@ -49,8 +52,12 @@ coverage/
 .phpunit.result.cache
 .phpunit.cache/
 
+# Capacitor
+android/
+ios/
+.capacitor/
+
 # Misc
-Thumbs.db
 *.cache
 .nitro/
 .vercel/
